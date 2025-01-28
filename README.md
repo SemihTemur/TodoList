@@ -1,10 +1,12 @@
+Project: Todo List Application (TypeScript)
+
 This is a simple yet functional Todo List application built using HTML, CSS, JavaScript, React, and TypeScript. Users can add, mark as complete, and remove tasks from their to-do list.
 
 Features:
 Add New Tasks: Users can easily add new tasks to the list.
 Mark Tasks as Completed: Tasks can be marked as completed by checking the checkbox.
 Remove Tasks: Completed or unnecessary tasks can be removed from the list.
-
+Data Persistence: Tasks are not lost even when the page is refreshed (this feature can be implemented using localStorage or a similar method).
 Technologies Used:
 HTML: Used for the structure of the application.
 CSS: Used for styling and making the application visually appealing.
