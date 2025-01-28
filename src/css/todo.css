@@ -1,0 +1,32 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.todo p {
+    font-size: 18px;
+    word-wrap: break-word;
+    width: 80%;
+}
+
+.todo input {
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.436);
+}
+
+.todo_icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.todo_icons * {
+    font-size: 21px;
+    cursor: pointer;
+}
